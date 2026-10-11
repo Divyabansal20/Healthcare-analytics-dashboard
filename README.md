@@ -1,11 +1,5 @@
 # Healthcare Clinical and Operational Analytics Dashboard
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Plotly](https://img.shields.io/badge/Plotly-5.18%2B-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/python/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![Author](https://img.shields.io/badge/Analyst-Divya%20Bansal-0D9488?style=for-the-badge)](#author)
-
 An enterprise-grade hospital intelligence and clinical data analytics application built with Python, Streamlit, Pandas, and Plotly. Designed to evaluate inpatient capacity, track clinical quality benchmarks, identify financial cost drivers, and simulate 30-day patient readmission risk.
 
 ---
@@ -163,47 +157,13 @@ python generate_data.py
 streamlit run app.py
 ```
 The application will launch automatically in your web browser at `http://localhost:8501`.
-
----
-
-## Deployment to Streamlit Community Cloud
-
-This project is structured for 1-click deployment on Streamlit Community Cloud. Follow these steps when you are ready to publish:
-
-### Step 1: Push Code to Your GitHub Repository
-1. In your terminal, initialize and configure git if needed:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: complete healthcare analytics platform by Divya Bansal"
-   ```
-2. Link your GitHub remote repository (replace with your repository URL):
-   ```bash
-   git remote add origin https://github.com/divyabansal/<your-repository-name>.git
-   git branch -M main
-   git push -u origin main --force
-   ```
-   *Note: Using `--force` ensures that any existing files in an older repository are cleanly overwritten by this new project.*
-
-### Step 2: Deploy on Streamlit Cloud
-1. Navigate to [share.streamlit.io](https://share.streamlit.io/) and sign in using your GitHub account.
-2. Click **New app**.
-3. Select your repository from the dropdown: `divyabansal/<your-repository-name>`.
-4. Set **Branch** to `main`.
-5. Set **Main file path** to `app.py`.
-6. Click **Deploy!**
-
-Streamlit Cloud will automatically read `requirements.txt` and `.streamlit/config.toml`, build the environment, and provide a public shareable URL (e.g., `https://<your-app-name>.streamlit.app`) suitable for including on your resume, LinkedIn profile, or portfolio website.
-
 ---
 
 ## Author
 
 **Divya Bansal**  
-*Healthcare Data Analyst | Business Intelligence Specialist*  
-- **GitHub:** [github.com/divyabansal](https://github.com/divyabansal)  
-- **LinkedIn:** [linkedin.com/in/divya-bansal](https://linkedin.com/in/divya-bansal)  
-- **Email:** divyabansal.analytics@gmail.com  
+*Healthcare Data Analyst* 
+- **Email:** bansaldivya20082005@gmail.com  
 
 ---
 
